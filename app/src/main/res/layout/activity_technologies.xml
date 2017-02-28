@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallpaper2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/ta_textViewStyle"
+            android:text="@string/ta_title"
+            android:gravity="center"
+            android:layout_marginRight="10dp"/>
+
+        <LinearLayout style="@style/ta_linearLayoutBig">
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView
+                    android:id="@+id/iv_profilephoto"
+                    style="@style/ta_imageViewStyle"
+                    android:transitionName="@string/ma_technologies_transition" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_binding" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_realm" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/ta_linearLayoutBig">
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_retrofit" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_crashlytics" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/ta_linearLayoutBig">
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_canaryleaks" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_location" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/ta_linearLayoutBig">
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_trello" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_gradle" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/ta_linearLayoutBig">
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_git" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_social_media" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/ta_linearLayoutBig">
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_maps" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_animations" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout style="@style/ta_linearLayoutBig">
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_multilanguage" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_style" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/ta_textViewStyle"
+            android:text="@string/ta_subtitle"
+            android:layout_marginRight="10dp"/>
+
+        <LinearLayout style="@style/ta_linearLayoutBig">
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_rxjava" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_dagger" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/ta_linearLayoutBig">
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_butterknife" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/ta_linearLayoutSmall">
+
+                <ImageView style="@style/ta_imageViewStyle" />
+
+                <TextView
+                    style="@style/ta_textViewStyle"
+                    android:text="@string/ta_tests" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

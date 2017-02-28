@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/ac_layoutSmallSize">
+
+            <ImageView style="@style/ac_imageViewStyle" />
+
+            <TextView
+                android:id="@+id/ac_tv_linkedin"
+                style="@style/ac_textViewStyle"
+                android:text="@string/ca_linkedin" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ac_layoutSmallSize">
+
+            <ImageView style="@style/ac_imageViewStyle" />
+
+            <TextView
+                android:id="@+id/ac_tv_facebook"
+                style="@style/ac_textViewStyle"
+                android:text="@string/ca_facebook" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ac_layoutSmallSize">
+
+            <ImageView
+                style="@style/ac_imageViewStyle" />
+
+            <TextView
+                android:id="@+id/ac_tv_phone"
+                style="@style/ac_textViewStyle"
+                android:text="@string/ca_phone" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ac_layoutSmallSize">
+
+            <ImageView
+                style="@style/ac_imageViewStyle"
+                android:transitionName="@string/ma_contact_transition" />
+
+            <TextView
+                android:id="@+id/ac_tv_mail"
+                style="@style/ac_textViewStyle"
+                android:text="@string/ca_mail" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        style="@style/ac_textViewStyle"
+        android:layout_above="@+id/linearLayout"
+        android:gravity="center"
+        android:text="@string/ca_address" />
+
+</RelativeLayout>

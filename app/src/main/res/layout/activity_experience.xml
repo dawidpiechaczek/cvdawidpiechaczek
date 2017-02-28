@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper2">
+
+    <ImageView
+        android:id="@+id/ae_iv_experience4"
+        style="@style/ea_imageViewStyle"
+        android:background="@drawable/doswiadczenie3" />
+
+    <ImageView
+        android:id="@+id/ae_iv_experience3"
+        style="@style/ea_imageViewStyle"
+        android:background="@drawable/doswiadczenie2" />
+
+    <ImageView
+        android:id="@+id/ae_iv_experience2"
+        style="@style/ea_imageViewStyle"
+        android:background="@drawable/doswiadczenie1" />
+
+
+    <ImageView
+        android:id="@+id/ae_iv_experience5"
+        style="@style/ea_imageViewStyle"
+        android:background="@drawable/doswiadczenie4" />
+
+    <ImageView
+        android:id="@+id/ae_iv_experience1"
+        style="@style/ea_imageViewStyle"
+        android:background="@drawable/doswiadczenie" />
+
+    <ImageView
+        android:id="@+id/ae_iv_experience"
+        style="@style/ea_imageViewStyle"
+        android:background="@drawable/doswiadczenie"
+        android:onClick="onClickAnimate"
+        android:transitionName="@string/ma_experience_transition" />
+</RelativeLayout>

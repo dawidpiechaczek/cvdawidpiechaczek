@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.example.david.dawidpiechaczekcv.view_model.AboutMeViewModel" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/aa_ll_main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/wallpaper2"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <com.hanks.htextview.HTextView
+                android:id="@+id/aa_htv_quote"
+                style="@style/aa_hTextViewStyle"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/iv_profilephoto"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/david"
+                android:transitionName="@string/ma_about_me_transition" />
+
+            <com.hanks.htextview.HTextView
+                android:id="@+id/aa_htv_name"
+                style="@style/aa_hTextViewStyle"
+                android:textSize="30sp" />
+
+            <LinearLayout style="@style/aa_layoutContainerSize">
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleQuestion"
+                        android:text="@{viewModel.getmTvBirth1}" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleAnswer"
+                        android:text="@{viewModel.getmTvBirth2}" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/aa_layoutContainerSize">
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleQuestion"
+                        android:text="@{viewModel.getmTvCity1}" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleAnswer"
+                        android:text="@{viewModel.getmTvCity2}" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/aa_layoutContainerSize">
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleQuestion"
+                        android:text="@{viewModel.getmTvMarried}" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleAnswer"
+                        android:text="@{viewModel.getmTvMarried2}" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/aa_layoutContainerSize">
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleQuestion"
+                        android:text="@{viewModel.getmTvUni1}" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleAnswer"
+                        android:text="@{viewModel.getmTvUni2}" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/aa_layoutContainerSize">
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleQuestion"
+                        android:text="@{viewModel.getmTvFaculty}" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleAnswer"
+                        android:text="@{viewModel.getmTvFaculty2}" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/aa_layoutContainerSize">
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleQuestion"
+                        android:text="@{viewModel.getmTvField}" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleAnswer"
+                        android:text="@{viewModel.getmTvField2}" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/aa_layoutContainerSize">
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleQuestion"
+                        android:text="@{viewModel.getmTvLanguages}" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleAnswer"
+                        android:text="@{viewModel.getmTvLanguages2}" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/aa_layoutContainerSize">
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleQuestion"
+                        android:text="@{viewModel.getmTvSkills}" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleAnswer"
+                        android:text="@{viewModel.getmTvSkills2}" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/aa_layoutContainerSize">
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleQuestion"
+                        android:text="@{viewModel.getmTvInterest}" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleAnswer"
+                        android:text="@{viewModel.getmTvInterest2}" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/aa_layoutContainerSize">
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleQuestion"
+                        android:text="@{viewModel.getmTvCharacter}" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/aa_layoutSmallSize">
+
+                    <TextView
+                        style="@style/aa_textViewStyleAnswer"
+                        android:text="@{viewModel.getmTvCharacter2}" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

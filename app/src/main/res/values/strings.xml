@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">DawidPiechaczekCV</string>
+    <!--MAIN ACTIVITY -->
+    <string name="ma_welcome_CV">Witaj w moim CV!</string>
+    <string name="ma_instruction_circle">Klikaj w kółeczka, żeby przejść dalej :)</string>
+    <string name="ma_about_me_title">O mnie</string>
+    <string name="ma_experience_title">Edukacja \ni doświadczenie</string>
+    <string name="ma_contact_title">Kontakt</string>
+    <string name="ma_projects_title">Projekty</string>
+    <string name="ma_technologies_title">Technologie</string>
+    <!-- ANIMACJE-->
+    <string name="ma_about_me_transition">o_mnie_animacja</string>
+    <string name="ma_technologies_transition">technologie_animacja</string>
+    <string name="ma_projects_transition">projekty_animacja</string>
+    <string name="ma_experience_transition">doswiadczenie_animacja</string>
+    <string name="ma_contact_transition">kontakt_animacja</string>
+    <string name="ma_close">Zamknij</string>
+    <!-- ABOUT ME VIEW-MODEL-->
+    <string name="ama_name">Dawid Piechaczek</string>
+    <string name="ama_birth1">urodzony :</string>
+    <string name="ama_birth2">18.04.1995</string>
+    <string name="ama_city">miasto rodzinne :</string>
+    <string name="ama_city2">Wodzisław Śląski</string>
+    <string name="ama_uni">uczelnia :</string>
+    <string name="ama_uni2">Politechnika Wrocławska</string>
+    <string name="ama_field">kierunek : </string>
+    <string name="ama_field2">Informatyka</string>
+    <string name="ama_faculty">wydział :</string>
+    <string name="ama_faculty2">Informatyki i Zarządzania</string>
+    <string name="ama_interestings">zainteresowania :</string>
+    <string name="ama_interestings2">Android, sport, nowe technologie, gadżety, ksiązki, filmy, podróże</string>
+    <string name="ama_married">stan cywilny :</string>
+    <string name="ama_married2">Kawaler</string>
+    <string name="ama_skills">umiejętności :</string>
+    <string name="ama_skills2">Prawo jazdy kat. B, średnia 5.03, 60kg na sztandze, 3.5km w 20min, czytanie 100 stron Stephena Kinga w 30min</string>
+    <string name="ama_languages">języki :</string>
+    <string name="ama_languages2">angielski C1, niemiecki B1</string>
+    <string name="ama_character">cechy :</string>
+    <string name="ama_character2">Kreatywny, wytrwały, sumienny, z poczuciem humoru, towarzyski, pomocny, raczej punktualny, bardzo szybko uczący się</string>
+
+    <string-array name="ama_quote">
+        <item name="item1">\"Jeśli marzeniem grzybiarza…</item>
+        <item name="item2">…jest iść na otwarte zbieranie…</item>
+        <item name="item3">…prawdziwków…</item>
+        <item name="item4">…to moim marzeniem jest…</item>
+        <item name="item5">…rozwijać się w firmie…</item>
+        <item name="item6">…która zapewni mi to…</item>
+        <item name="item7">…w najlepszy możliwy sposób\"</item>
+        <item name="item8">- Paulo Coelho</item>
+    </string-array>
+    <!-- PLACEHOLDER FRAGMENT-->
+    <string name="pf_name_kaszuby">Kaszuby</string>
+    <string name="pf_name_sknerus">Sknerus.pl</string>
+    <string name="pf_name_gps">Biostat GPS</string>
+
+    <string name="pf_description_kaszuby">Moja najbardziej rozbudowana i wymagająca aplikacja. Projekt wykonany na zlecenie gminy Kościerzyna. Aplikacja ma na celu wspomagać turystę w poruszaniu się po terenie Kaszub. Aplikacja wykorzystuje API do przesyłu danych, jest oparta na OpenStreetMaps, gdzie pokazuje się lokalizację użytkownika oraz miejsca warte zobaczenia. Aplikacja zrobiona na bazie danych Realm.</string>
+    <string name="pf_description_sknerus">Aplikacja akademicka, która została zrobiona na potrzeby projektu zaliczeniowego. Jest to serwis napisany w .NET, gdzie sam stworzyłem API oraz nawiązałem komunikację między serwerem, a telefonem. Aplikacja na Androida pobierała dane o kursach walut, z kolei z niej można było składać zamówienia wysyłane na komputer i odbierane tam przez administartora. \nFront robiony w Razorze.</string>
+    <string name="pf_description_gps">Pierwszy komercyjny projekt, który robiłem. Aplikacja wspomaga pracodawców w nadzorze pracownika np. w sektorze transportu. Pracownik wciskając klawisz rozpoczęcia zezwala urządzeniu na wyszukiwanie swojej pozycji i zapisywanie jej co 30 sekund. Po to, aby ograniczyć użycie danych pozycję zapisuję w pliku tekstowym pamięci wewnętrznej i co 10 minut wysyłam na serwer pracodawcy. Aplikacja ubogacona jest drobną animacją rozpraszającego się kółka - analogi do wyszukiwania. Co jakiś czas można podejrzeć swoją nową pozycję.</string>
+
+    <string name="pf_link_kaszuby">https://play.google.com/store/apps/details?id=pk.biostat.com.pl.koscierzyna&amp;hl=pl</string>
+    <string name="pf_link_sknerus"></string>
+    <string name="pf_link_gps">https://play.google.com/store/apps/details?id=my.gpsBiostat.david.mybiostatapp&amp;hl=pl</string>
+    <!--CONTACT ACTIVITY -->
+    <string name="ca_address">Dawid Piechaczek, ul.Jabłoniowa 19, \n44-304 Wodzisław Sląski</string>
+    <string name="ca_facebook">Facebook</string>
+    <string name="ca_linkedin">LinkedIn</string>
+    <string name="ca_mail">Mail</string>
+    <string name="ca_phone">Telefon</string>
+    <string name="ca_mail_text">Moj mail: dawidpiechaczek.20@gmail.com, miło będzie na niego dostać jakąś odpowiedź :)</string>
+    <string name="ca_mail_type">message/rfc822</string>
+    <string name="ca_facebook_url">https://www.facebook.com/dawid.piechaczek</string>
+    <string name="ca_linkedin_url">https://www.linkedin.com/in/dawid-piechaczek-752962118</string>
+    <string name="ca_phone_number">tel:511787861</string>
+    <string name="ca_showcase_title">Skontaktuj się ze mną</string>
+    <string name="ca_showcase_text">Wystarczy kliknąć w napis kontaktu, który preferujesz</string>
+    <!--TECHNOLOGIES ACTIVITY-->
+    <string name="ta_title">Już implementowałem \ni pracowałem z: </string>
+    <string name="ta_subtitle">…i wiele innych, \nale dopiero uczę się: </string>
+    <string name="ta_binding">Binding</string>
+    <string name="ta_realm">Realm</string>
+    <string name="ta_retrofit">Retrofit</string>
+    <string name="ta_crashlytics">CrashLytics</string>
+    <string name="ta_canaryleaks">CanaryLeaks</string>
+    <string name="ta_location">Lokalizacja</string>
+    <string name="ta_trello">Trello</string>
+    <string name="ta_gradle">Gradle</string>
+    <string name="ta_git">GIT Tortoise</string>
+    <string name="ta_social_media">Integracja z Social Media</string>
+    <string name="ta_maps">OSM Maps</string>
+    <string name="ta_animations">Animacje</string>
+    <string name="ta_rxjava">RxJava 2</string>
+    <string name="ta_dagger">Dagger 2</string>
+    <string name="ta_butterknife">ButtrKnife</string>
+    <string name="ta_tests">Testy</string>
+    <string name="ta_multilanguage">Wielojęzyczne aplikacje</string>
+    <string name="ta_style">Stylowanie widoków</string>
+</resources>

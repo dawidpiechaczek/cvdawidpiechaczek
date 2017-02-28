@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="modelView"
+            type="com.example.david.dawidpiechaczekcv.activity.MainActivity" />
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallpaper2"
+        tools:context="com.example.david.dawidpiechaczekcv.activity.MainActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_polish"
+                style="@style/am_imageViewStyle"
+                android:background="@drawable/poland"
+                android:onClick="onClickLanguage"/>
+
+            <ImageView
+                android:id="@+id/iv_english"
+                style="@style/am_imageViewStyle"
+                android:background="@drawable/british"
+                android:onClick="onClickLanguage"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/am_layoutSmallSize">
+
+                <ImageView
+                    android:id="@+id/iv_about_me"
+                    style="@style/am_imageViewStyle"
+                    android:background="@drawable/david"
+                    android:transitionName="@string/ma_about_me_transition" />
+
+                <TextView
+                    android:id="@+id/tv_about_me"
+                    style="@style/am_textViewStyle"
+                    android:text="@string/ma_about_me_title" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/am_layoutSmallSize">
+
+                <ImageView
+                    android:id="@+id/iv_projects"
+                    style="@style/am_imageViewStyle"
+                    android:background="@drawable/projekty"
+                    android:transitionName="@string/ma_projects_transition" />
+
+                <TextView
+                    android:id="@+id/tv_projects"
+                    style="@style/am_textViewStyle"
+                    android:text="@string/ma_projects_title" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/am_layoutSmallSize">
+
+                <ImageView
+                    android:id="@+id/iv_experience"
+                    style="@style/am_imageViewStyle"
+                    android:background="@drawable/doswiadczenie"
+                    android:transitionName="@string/ma_experience_transition" />
+
+                <TextView
+                    style="@style/am_textViewStyle"
+                    android:text="@string/ma_experience_title" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/am_layoutSmallSize">
+
+                <ImageView
+                    android:id="@+id/iv_technologies"
+                    style="@style/am_imageViewStyle"
+                    android:background="@drawable/technologie"
+                    android:transitionName="@string/ma_technologies_transition" />
+
+                <TextView
+                    android:id="@+id/tv_technologies"
+                    style="@style/am_textViewStyle"
+                    android:text="@string/ma_technologies_title" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/am_layoutSmallSize">
+
+                <ImageView
+                    android:id="@+id/iv_contact"
+                    style="@style/am_imageViewStyle"
+                    android:background="@drawable/kontakt" />
+
+                <TextView
+                    android:id="@+id/tv_contact"
+                    style="@style/am_textViewStyle"
+                    android:text="@string/ma_contact_title" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

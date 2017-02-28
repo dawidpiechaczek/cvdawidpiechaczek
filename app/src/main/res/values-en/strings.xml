@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">DawidPiechaczekCV</string>
+    <!--MAIN ACTIVITY -->
+    <string name="ma_welcome_CV">Welcome to my CV!</string>
+    <string name="ma_instruction_circle">Click on circle to move on, please :)</string>
+    <string name="ma_about_me_title">About me</string>
+    <string name="ma_experience_title">Education \nand experience</string>
+    <string name="ma_contact_title">Contact</string>
+    <string name="ma_projects_title">Projects</string>
+    <string name="ma_technologies_title">Technologies</string>
+    <!-- ANIMACJE-->
+    <string name="ma_about_me_transition">about_me_animation</string>
+    <string name="ma_technologies_transition">technologies_animation</string>
+    <string name="ma_projects_transition">projects_animation</string>
+    <string name="ma_experience_transition">experience_animation</string>
+    <string name="ma_contact_transition">contact_animation</string>
+    <string name="ma_close">Close</string>
+    <!-- ABOUT ME VIEW-MODEL-->
+    <string name="ama_name">Dawid Piechaczek</string>
+    <string name="ama_birth1">born :</string>
+    <string name="ama_birth2">18.04.1995</string>
+    <string name="ama_city">home town :</string>
+    <string name="ama_city2">Wodzisław Śląski</string>
+    <string name="ama_uni">university :</string>
+    <string name="ama_uni2">University Of Technology Wroclaw</string>
+    <string name="ama_field">field : </string>
+    <string name="ama_field2">Computer Science</string>
+    <string name="ama_faculty">faculty :</string>
+    <string name="ama_faculty2">Computer Science and Management</string>
+    <string name="ama_interestings">hobbies :</string>
+    <string name="ama_interestings2">Android, sport, new technologies, gadgets, books, films, travelling</string>
+    <string name="ama_married">martial status :</string>
+    <string name="ama_married2">Single</string>
+    <string name="ama_skills">skills :</string>
+    <string name="ama_skills2">Driving licence cat. B, average grade - 5.03, 60kg on barbells, 3.5km in 20min, reading 100 sites of Stephen King books in 30min</string>
+    <string name="ama_languages">languages :</string>
+    <string name="ama_languages2">English C1, German B1</string>
+    <string name="ama_character">character :</string>
+    <string name="ama_character2">Creative, perseverant, dutiful, funny, sociable, helpful, rather punctual, learning quickly</string>
+
+    <string-array name="ama_quote">
+        <item name="item1">\"If a mushroom picker dream…</item>
+        <item name="item2">…is to attend a picking…</item>
+        <item name="item3">…competition…</item>
+        <item name="item4">…then mine would be…</item>
+        <item name="item5">…to develop my skills at company…</item>
+        <item name="item6">…which can allow me to do it…</item>
+        <item name="item7">…in the best possible way\"</item>
+        <item name="item8">- Paulo Coelho</item>
+    </string-array>
+    <!-- PLACEHOLDER FRAGMENT-->
+    <string name="pf_name_kaszuby">Kaszuby</string>
+    <string name="pf_name_sknerus">Sknerus.pl</string>
+    <string name="pf_name_gps">Biostat GPS</string>
+
+    <string name="pf_description_kaszuby">My most challenging and complex Android app. Project was made on order of Kościerzyna town. App should support tourist whereas visiting Kaszuby in Poland. App uses API to send data (Retrofit), is based on OSMapps (open source), where it presents localization of user and interesting places to visit. App is based on Realm database.</string>
+    <string name="pf_description_sknerus">Academic app, which was made to pass a project. It is a back-end wrote in .NET, where I create own API and communicate this with my mobile in proper way. Android app gets data about currency rates and posts orders to the service. Admin has access to orders on the computer. Front-end was made in Razor.</string>
+    <string name="pf_description_gps">My first commercial project, which I did. App supports employer in supervising his employees, for an instance in transport sector. Worker allows searching his location when he switched on the button. Placement will be saved every 30s. Due to minimize data usage, the localization is saved in .txt file in internal storage and send on employers server every 10 minutes. App uses a little animation to show when app works. You can check Your position in every moment.</string>
+
+    <string name="pf_link_kaszuby">https://play.google.com/store/apps/details?id=pk.biostat.com.pl.koscierzyna&amp;hl=pl</string>
+    <string name="pf_link_sknerus"></string>
+    <string name="pf_link_gps">https://play.google.com/store/apps/details?id=my.gpsBiostat.david.mybiostatapp&amp;hl=pl</string>
+    <!--CONTACT ACTIVITY -->
+    <string name="ca_address">Dawid Piechaczek \nJabłoniowa 19 Street \n44-304 Wodzisław Śląski</string>
+    <string name="ca_facebook">Facebook</string>
+    <string name="ca_linkedin">LinkedIn</string>
+    <string name="ca_mail">Mail</string>
+    <string name="ca_phone">Phone</string>
+    <string name="ca_mail_text">My mail: dawidpiechaczek.20@gmail.com, it give me a lot of pleasure to get an answer there :)</string>
+    <string name="ca_mail_type">message/rfc822</string>
+    <string name="ca_facebook_url">https://www.facebook.com/dawid.piechaczek</string>
+    <string name="ca_linkedin_url">https://www.linkedin.com/in/dawid-piechaczek-752962118</string>
+    <string name="ca_phone_number">tel:+48511787861</string>
+    <string name="ca_showcase_title">Contact with me</string>
+    <string name="ca_showcase_text">Click on title of contact, which You prefer</string>
+    <!--TECHNOLOGIES ACTIVITY-->
+    <string name="ta_title">I have already worked with : </string>
+    <string name="ta_subtitle">... etc., but still learning: </string>
+    <string name="ta_binding">Binding</string>
+    <string name="ta_realm">Realm</string>
+    <string name="ta_retrofit">Retrofit</string>
+    <string name="ta_crashlytics">CrashLytics</string>
+    <string name="ta_canaryleaks">CanaryLeaks</string>
+    <string name="ta_location">Location</string>
+    <string name="ta_trello">Trello</string>
+    <string name="ta_gradle">Gradle</string>
+    <string name="ta_git">GIT Tortoise</string>
+    <string name="ta_social_media">Integration with Social Media</string>
+    <string name="ta_maps">OSM Maps</string>
+    <string name="ta_animations">Animations</string>
+    <string name="ta_rxjava">RxJava 2</string>
+    <string name="ta_dagger">Dagger 2</string>
+    <string name="ta_butterknife">ButtrKnife</string>
+    <string name="ta_tests">Tests</string>
+    <string name="ta_multilanguage">Multilingual apps</string>
+    <string name="ta_style">Layouts</string>
+</resources>
